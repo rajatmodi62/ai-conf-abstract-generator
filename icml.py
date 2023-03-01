@@ -9,7 +9,7 @@ def generate_icml_abstract(url, txt_name):
         txt_name = 'dummy.txt'
         r = requests.get(url)
         soup = BeautifulSoup(r.content, 'lxml')
-        print(soup.prettify())
+        # print(soup.pretify())
         texts = soup.find_all("a")
 
 
