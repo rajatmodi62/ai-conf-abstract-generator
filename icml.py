@@ -70,9 +70,10 @@ def generate_icml_abstract(url, txt_name):
                         
                 except:
                         continue
-
-        with open(txt_name, 'w') as f:
+        import codecs
+        with codecs.open(txt_name, 'w',"utf-8") as f:
                 for line in save_data:
+                        # line = unicode(line, "utf-8")
                         f.write(line)
                         f.write('\n')
 

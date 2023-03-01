@@ -44,7 +44,9 @@ def generate_cvf_abstract(url, txt_name,do, t):
             # break            
         # print(save_data)
 
-        with open(txt_name, 'w') as f:
+        # with open(txt_name, 'w') as f:
+        import codecs
+        with codecs.open(txt_name, 'w',"utf-8") as f:
             for line in save_data:
                 f.write(line)
                 f.write('\n')

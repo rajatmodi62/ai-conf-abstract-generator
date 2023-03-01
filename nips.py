@@ -64,7 +64,9 @@ for year in years:
     save_name = 'nips_' + year + '.txt'
 
 
-    with open(save_name, 'w') as f:
+    # with open(save_name, 'w') as f:
+    import codecs
+    with codecs.open(save_name, 'w',"utf-8") as f:
         for line in final_lines:
             f.write(line)
             f.write('\n')
