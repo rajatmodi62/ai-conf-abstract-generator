@@ -35,15 +35,15 @@ for year in years:
         for text in texts:
             save+=[text.getText()] #paper title
             break
-        print(save)
+        # print(save)
         
         texts = soup.find_all('p')
         data = []
         for text in texts:
             # print(text.getText())
             data.append(text.getText())
-        print("author", data[1])
-        print("tetx", data[3])
+        # print("author", data[1])
+        # print("tetx", data[3])
         save+=[data[1]]
         save+=[]
         save+=[data[3]]
@@ -59,7 +59,7 @@ for year in years:
     final_lines = save
 
 
-    print(final_lines)
+    # print(final_lines)
 
     save_name = 'nips_' + year + '.txt'
 

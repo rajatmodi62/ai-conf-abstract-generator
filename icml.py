@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 
 def generate_icml_abstract(url, txt_name):
 
-        url = 'https://proceedings.mlr.press/v28/'
-        txt_name = 'dummy.txt'
+        # url = 'https://proceedings.mlr.press/v28/'
+        # txt_name = 'dummy.txt'
         r = requests.get(url)
         soup = BeautifulSoup(r.content, 'lxml')
         # print(soup.pretify())
