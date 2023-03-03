@@ -294,7 +294,11 @@ class PDFCreator(object):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('filename')
+parser.add_argument('--filename',
+    '-fl',
+    type=str,
+    default="none",
+    help='Size of the font')
 parser.add_argument(
     '--font',
     '-f',
@@ -414,6 +418,32 @@ parser.add_argument(
     '-c',
     help='Filename of json file containing mappings of replacement/translations characters')
 
+
+
+def generate_pdf(txt_path):
+    argv = txt_path
+    args = parser.parse_args()
+    # exit(1)
+    print("1",txt_path)
+    args.filename = txt_path 
+    f_name = txt_path.split('/')
+    f_id = f_name[-1].split('.')[0]
+    f_id = str(f_id) + '.pdf'
+    print("2",f_name)
+    # f_name = f_name[:-1]
+    print("3",f_name,f_id)
+    # f_name = list(f_name.append(f_id)
+    f_name[-1] =f_id
+    f_name = '/'.join(f_name)
+    print(f_name)
+    args.output = f_name
+    PDFCreator(args, Margins(
+        args.margin_right,
+        args.margin_left,
+        args.margin_top,
+        args.margin_bottom)).generate()
+
+    return 0
 def main(argv=None):
     if argv is None:
         argv = sys.argv
@@ -421,7 +451,8 @@ def main(argv=None):
     print('Python %s on %s' % (sys.version, sys.platform))
 
     args = parser.parse_args()
-
+    # print(args)
+    # exit(1)
     PDFCreator(args, Margins(
         args.margin_right,
         args.margin_left,
