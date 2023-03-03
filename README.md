@@ -15,7 +15,11 @@ I hope this helps at least one person out there,
 python icml.py -> for generating icml abstract. 
 python nips.py -> parses neurips.cc for proceedings . 
 python openreview-py/openreview.py -> parses openreview for all iclr conferences. 
-python openreview
 ```
+Note: ICLR proceedings contain all submissions including accepted/rejected papers. As @andrej karpathy says, it is important to expose oneself to both good and 'bad' research :-) 
+
 In case of doubts, email: rajatmodi62@gmail.com
 Thanks and wishing you a successful career,
+
+Credits:
+Beautifulsoup for crawling, and the amazing folks at openreview for api. 
