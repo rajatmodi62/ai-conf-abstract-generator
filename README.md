@@ -1,6 +1,6 @@
 # AI Abstract Generator
 
-Great research requires good insights. Often, it is important to parse through literature and figure out the problems worth solving. With thousands of papers published each year, it is impossible to keep track of them. Furthermore, scrolling through individual sections of openreview/opencvf takes too much time. Finally, conferences like icml/eccv publish giant books combining all papers. However, most of this is application based and cant help a person from achieving a required level of abstract thought.  
+Great research requires out-of-box insights. Often, it is important to parse through literature and figure out the problems worth solving. With thousands of papers published each year, it is impossible to keep track of them. Furthermore, scrolling through individual sections of openreview/opencvf takes too much time. Finally, conferences like icml/eccv publish giant books combining all papers. However, most of this is application based and cant help a person from achieving a required level of abstract thought.  
 
 To separate junk papers from good ones, it is therefore necessary to have a 'single' spot with the abstract of all papers in one place. This repo aims to achieve that. It should allow you to go filter research far more quickly. 
 
