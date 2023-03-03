@@ -12,7 +12,10 @@ I hope this helps at least one person out there,
 
 
 ```
-python icml.py
+python icml.py -> for generating icml abstract. 
+python nips.py -> parses neurips.cc for proceedings . 
+python openreview-py/openreview.py -> parses openreview for all iclr conferences. 
+python openreview
 ```
 In case of doubts, email: rajatmodi62@gmail.com
 Thanks and wishing you a successful career,
