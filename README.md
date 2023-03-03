@@ -10,5 +10,9 @@ For looking at the proceedings, please go the pdf section of appropriate confere
 
 I hope this helps at least one person out there, 
 
+
+```
+python icml.py
+```
 In case of doubts, email: rajatmodi62@gmail.com
 Thanks and wishing you a successful career,
