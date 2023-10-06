@@ -56,34 +56,35 @@ def generate_cvf_abstract(url, txt_name,do, t):
 
 
 conf = [
-('https://openaccess.thecvf.com/WACV2023','wacv23.txt'),\
-('https://openaccess.thecvf.com/CVPR2022?day=all','cvpr22.txt'),\
-('https://openaccess.thecvf.com/WACV2022','wacv22.txt'),\
-('https://openaccess.thecvf.com/ICCV2021?day=all','iccv21.txt'),\
-('https://openaccess.thecvf.com/CVPR2021?day=all','cvpr21.txt'),\
-('https://openaccess.thecvf.com/WACV2021','wacv21.txt'),\
-('https://openaccess.thecvf.com/WACV2020','wacv20.txt'),\
-('https://openaccess.thecvf.com/ICCV2017','iccv17.txt'),\
-('https://openaccess.thecvf.com/CVPR2017','cvpr17.txt'),\
-('https://openaccess.thecvf.com/CVPR2016','cvpr16.txt'),\
-('https://openaccess.thecvf.com/ICCV2015','iccv15.txt'),\
-('https://openaccess.thecvf.com/CVPR2015','cvpr15.txt'),\
-('https://openaccess.thecvf.com/CVPR2014','cvpr14.txt'),\
-('https://openaccess.thecvf.com/ICCV2013','iccv13.txt'),\
-('https://openaccess.thecvf.com/CVPR2013','cvpr13.txt'),\
-('https://openaccess.thecvf.com/CVPR2020?day=2020-06-16','cvpr20_1.txt'),\
-('https://openaccess.thecvf.com/CVPR2020?day=2020-06-17','cvpr20_2.txt'),\
-('https://openaccess.thecvf.com/CVPR2020?day=2020-06-18','cvpr20_3.txt'),\
-('https://openaccess.thecvf.com/ICCV2019?day=2019-10-29','iccv19_1.txt'),\
-('https://openaccess.thecvf.com/ICCV2019?day=2019-10-30','iccv19_2.txt'),\
-('https://openaccess.thecvf.com/ICCV2019?day=2019-10-31','iccv19_3.txt'),\
-('https://openaccess.thecvf.com/ICCV2019?day=2019-11-01','iccv19_4.txt'),\
-('https://openaccess.thecvf.com/CVPR2019?day=2019-06-18','cvpr19_1.txt'),\
-('https://openaccess.thecvf.com/CVPR2019?day=2019-06-19','cvpr19_2.txt'),\
-('https://openaccess.thecvf.com/CVPR2019?day=2019-06-20','cvpr19_3.txt'),\
-('https://openaccess.thecvf.com/CVPR2018?day=2018-06-19','cvpr18_1.txt'),\
-('https://openaccess.thecvf.com/CVPR2018?day=2018-06-20','cvpr18_2.txt'),\
-('https://openaccess.thecvf.com/CVPR2018?day=2018-06-21','cvpr18_3.txt'),\
+# ('https://openaccess.thecvf.com/WACV2023','wacv23.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2022?day=all','cvpr22.txt'),\
+# ('https://openaccess.thecvf.com/WACV2022','wacv22.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2021?day=all','iccv21.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2021?day=all','cvpr21.txt'),\
+# ('https://openaccess.thecvf.com/WACV2021','wacv21.txt'),\
+# ('https://openaccess.thecvf.com/WACV2020','wacv20.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2017','iccv17.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2017','cvpr17.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2016','cvpr16.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2015','iccv15.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2015','cvpr15.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2014','cvpr14.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2013','iccv13.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2013','cvpr13.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2020?day=2020-06-16','cvpr20_1.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2020?day=2020-06-17','cvpr20_2.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2020?day=2020-06-18','cvpr20_3.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2019?day=2019-10-29','iccv19_1.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2019?day=2019-10-30','iccv19_2.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2019?day=2019-10-31','iccv19_3.txt'),\
+# ('https://openaccess.thecvf.com/ICCV2019?day=2019-11-01','iccv19_4.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2019?day=2019-06-18','cvpr19_1.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2019?day=2019-06-19','cvpr19_2.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2019?day=2019-06-20','cvpr19_3.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-19','cvpr18_1.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-20','cvpr18_2.txt'),\
+# ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-21','cvpr18_3.txt'),\
+('https://openaccess.thecvf.com/ICCV2023?day=all', 'iccv23.txt'),\
 ]
 
 
