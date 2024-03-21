@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-years = [str(i) for i in range(2022,2023)]
+years = [str(i) for i in range(2023,2024)]
 for year in years:
         
     URL = 'https://papers.nips.cc/paper/'+year

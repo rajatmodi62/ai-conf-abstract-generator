@@ -79,17 +79,17 @@ def generate_icml_abstract(url, txt_name):
 
 
 conf = [
-
-        ('https://proceedings.mlr.press/v162','icml22.txt'),\
-        ('https://proceedings.mlr.press/v139','icml21.txt'),\
-        ('https://proceedings.mlr.press/v119','icml20.txt'),\
-        ('https://proceedings.mlr.press/v97','icml19.txt'),\
-        ('https://proceedings.mlr.press/v80','icml18.txt'),\
-        ('https://proceedings.mlr.press/v70','icml17.txt'),\
-        ('https://proceedings.mlr.press/v48','icml16.txt'),\
-        ('https://proceedings.mlr.press/v37','icml15.txt'),\
-        ('https://proceedings.mlr.press/v32','icml14.txt'),\
-        ('https://proceedings.mlr.press/v28','icml13.txt'),\
+        ('https://proceedings.mlr.press/v202','icml23.txt'),\
+        # ('https://proceedings.mlr.press/v162','icml22.txt'),\
+        # ('https://proceedings.mlr.press/v139','icml21.txt'),\
+        # ('https://proceedings.mlr.press/v119','icml20.txt'),\
+        # ('https://proceedings.mlr.press/v97','icml19.txt'),\
+        # ('https://proceedings.mlr.press/v80','icml18.txt'),\
+        # ('https://proceedings.mlr.press/v70','icml17.txt'),\
+        # ('https://proceedings.mlr.press/v48','icml16.txt'),\
+        # ('https://proceedings.mlr.press/v37','icml15.txt'),\
+        # ('https://proceedings.mlr.press/v32','icml14.txt'),\
+        # ('https://proceedings.mlr.press/v28','icml13.txt'),\
 ]
 
 for item in conf:
