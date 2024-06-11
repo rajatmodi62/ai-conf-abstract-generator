@@ -59,6 +59,9 @@ def generate_icml_abstract(url, txt_name):
                                 try:
                                         data = text.getText()
                                         data = data.replace(u'\xa0', u' ')
+                                        
+                                        abstract = data.strip()
+                                        print(abstract)
                                         save_data.append(data.strip())
                                 except:
                                         continue

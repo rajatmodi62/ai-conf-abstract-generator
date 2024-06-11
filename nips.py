@@ -1,7 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
 
-years = [str(i) for i in range(2023,2024)]
+# years = [str(i) for i in range(2023,2024)]
+years = [2023]
+# years = [2022]
+# years = [2021]
+# years = [2020]
+# years = [2019]
+# years = [2018]
+years = [2017]
+#
+
+keyword_list = [
+        'action recognition',\
+        'action localization',\
+        'video captioning',\
+        'video question answering',\
+        'video text retrieval',\
+        'text video retrieval',\
+        'video generation',\
+        'video prediction',\
+        'video synthesis',\
+        
+]
+
+
 for year in years:
         
     URL = 'https://papers.nips.cc/paper/'+year

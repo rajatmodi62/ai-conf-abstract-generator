@@ -1,0 +1,14 @@
+.ipynb
+*.pyc
+.DS_Store
+dist/
+__pycache__
+openreview_py.egg-info/
+.pytest_cache/
+build/
+pytest_report.xml
+*.log
+cov.xml
+.coverage*
+tests/drivers/geckodriver
+tests/data/*.csv
