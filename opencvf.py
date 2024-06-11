@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # url = 'https://openaccess.thecvf.com/CVPR2022?day=all'
 # txt_name = 'cvpr22.txt'
 def generate_cvf_abstract(url, txt_name,do, t):
-    try:
+    # try:
         base_url = 'https://openaccess.thecvf.com/'
         r = requests.get(url)
         # print(url)
@@ -50,8 +50,8 @@ def generate_cvf_abstract(url, txt_name,do, t):
             for line in save_data:
                 f.write(line)
                 f.write('\n')
-    except:
-        print("continue")
+    # except:
+    #     print("continue")
     
 
 
@@ -85,7 +85,7 @@ conf = [
 # ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-20','cvpr18_2.txt'),\
 # ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-21','cvpr18_3.txt'),\
 # ('https://openaccess.thecvf.com/ICCV2023?day=all', 'iccv23.txt'),\
-('https://openaccess.thecvf.com/WACV2024','wacv24.txt'),\
+('https://openaccess.thecvf.com/CVPR2024?day=all','cvpr24.txt'),\
 ]
 
 
