@@ -85,7 +85,7 @@ conf = [
 # ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-20','cvpr18_2.txt'),\
 # ('https://openaccess.thecvf.com/CVPR2018?day=2018-06-21','cvpr18_3.txt'),\
 # ('https://openaccess.thecvf.com/ICCV2023?day=all', 'iccv23.txt'),\
-('https://openaccess.thecvf.com/CVPR2024?day=all','cvpr24.txt'),\
+('https://openaccess.thecvf.com/CVPR2025?day=all','cvpr25.txt'),\
 ]
 
 
