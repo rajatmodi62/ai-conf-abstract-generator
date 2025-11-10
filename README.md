@@ -23,3 +23,12 @@ Thanks and wishing you a successful career,
 
 Credits:
 Beautifulsoup for crawling, and the amazing folks at openreview for api. 
+
+
+### from now, i have started making list of notable papers 
+
+criteria is my own, pushes are welcome. i'm interested in bigger story, not stupid increments over benchmarks. 
+
+nips 25
+
+- Memory Mosaics at scale
