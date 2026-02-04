@@ -27,10 +27,27 @@ Beautifulsoup for crawling, and the amazing folks at openreview for api.
 
 ### from now, i have started making list of notable papers 
 
-criteria is my own, pushes are welcome. i'm interested in bigger story, not stupid increments over benchmarks. 
+criteria is my own, pushes are welcome. we are interested in bigger story, not stupid increments over benchmarks. 
 
 nips 25
 
 - Memory Mosaics at scale
-
-
+- Analog In-memory Training on General Non-ideal Resistive Elements: The Impact of Response Functions
+Large Language Diffusion Models
+Learning long range dependencies through time reversal symmetry breaking
+Mean Flows for One-step Generative Modeling
+Error Forcing in Recurrent Neural Networks
+Controlling Thinking Speed in Reasoning Models
+Rotary Masked Autoencoders are Versatile Learners
+Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation
+Harnessing the Universal Geometry of Embeddings
+Chirality in Action: Time-Aware Video Representation Learning by Latent Straightening
+Find your Needle: Small Object Image Retrieval via
+Multi-Object Attention Optimization: somewhat interesting but not that groundbreaking
+Cameras as Relative Positional Encoding
+Generative Graph Pattern Machine
+70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float (DFloat11)
+start from 117
+Object-centric Binding in Contrastive
+Language-Image Pretrainin
+start from 124 
