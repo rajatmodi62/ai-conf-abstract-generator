@@ -51,3 +51,125 @@ start from 117
 Object-centric Binding in Contrastive
 Language-Image Pretrainin
 start from 124 
+
+
+
+#iclr 2026
+
+
+
+
+end of manual decoding
+
+https://arxiv.org/abs/2510.26697
+
+
+Hippoformer: Integrating Hippocampusinspired Spatial Memory with Transformers
+
+https://github.com/ippolito-cmu/Command-V/
+
+https://github.com/Sheng-J/SSFT
+
+https://github.com/yix8/VisualPlanning
+
+https://arxiv.org/pdf/2510.14583
+
+https://github.com/Zacks917/AutoDeco
+
+https://arxiv.org/pdf/2602.03060
+
+https://arxiv.org/pdf/2601.21583
+
+
+
+# cvpr 2026
+
+
+
+Yuezhi Yang-> contact on june 3rd
+Learning Convex Decomposition via Feature Fields.
+
+
+Seulki Park -> iherarichal recognition
+
+
+
+PowerCLIP: Powerset Alignment for Contrastive Pre-Training
+
+nice paper
+choosing canonical frame
+https://arxiv.org/pdf/2603.01205
+
+
+segment part without any learning from dinov3
+https://arxiv.org/pdf/2603.28480
+
+
+good papers:
+
+
+
+they seem to be organizing information into vectors
+https://arxiv.org/pdf/2512.14336
+
+
+https://arxiv.org/pdf/2603.21111
+
+Beyond Reassembly: Fractured Object Recovery with Missing Parts
+
+https://arxiv.org/pdf/2512.14699
+
+https://arxiv.org/pdf/2511.15487
+
+
+https://github.com/ranrhuang/NAS3R
+
+Unlocking Pre-trained Weights: Parameter Inheritance for Zero-Shot Initialization
+
+https://zhangyl4.github.io/publications/weavetime/
+---
+
+
+ROSE: Rotate Your Large Language Model to See
+
+TempoMaster: Efficient Long Video Generation via Next-Frame-Rate Prediction
+
+
+
+
+https://arxiv.org/pdf/2506.17218
+
+Learning to Track Instance from Single Nature Language Description
+
+
+https://arxiv.org/pdf/2603.12254
+
+https://arxiv.org/pdf/2604.04913
+
+https://arxiv.org/pdf/2601.03252
+
+
+https://arxiv.org/pdf/2603.07704
+
+
+TttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction
+i dont like 3d, but look at their code for fast weights 
+
+
+nas architecture search 
+
+https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202026/36187.png?t=1778834995.6549249
+
+
+
+oral papers
+
+
+https://arxiv.org/pdf/2512.01643
+
+
+start from this later
+
+pg 38 
+
+https://www.paperdigest.org/digest/?topic=cvpr&year=2026
