@@ -1,0 +1,10 @@
+How Do Language Models Compose Functions?
+Latent Reasoning in Continuous Space for Unified Multimodal Models
+Lattice Deduction Transformers
+Learning Compositional Latent Structure with Vector Networks
+https://arxiv.org/pdf/2608.24735
+
+Phase Kernel Lifts Capacity of Dense Associative Memory
+
+Program-as-Weights: A Programming Paradigm for Fuzzy Functions
+https://arxiv.org/pdf/2603.19218 : why are diffusion models not surpassing transforemr in segmentation yet
