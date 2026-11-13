@@ -8,3 +8,12 @@ Phase Kernel Lifts Capacity of Dense Associative Memory
 
 Program-as-Weights: A Programming Paradigm for Fuzzy Functions
 https://arxiv.org/pdf/2603.19218 : why are diffusion models not surpassing transforemr in segmentation yet
+https://arxiv.org/abs/2512.24601
+https://arxiv.org/pdf/2604.25917
+https://arxiv.org/pdf/2606.29513
+https://arxiv.org/pdf/2607.16189
+Sparsely Wired Mortal LLM Inference
+https://arxiv.org/pdf/2606.03584 : HOLY SHIT SOMEONE TRAINED EQPROP FOR IMAGENET 
+Walking the Hypercube: Unbiased Quantum Partition Functions Without the Matrix
+
+
